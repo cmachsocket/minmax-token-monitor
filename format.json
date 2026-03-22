@@ -1,0 +1,86 @@
+{
+  "model_remains": [
+    {
+      "start_time": 1774180800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 600,
+      "current_interval_usage_count": 357,
+      "model_name": "MiniMax-M*",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    },
+    {
+      "start_time": 1774108800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 0,
+      "current_interval_usage_count": 0,
+      "model_name": "speech-hd",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    },
+    {
+      "start_time": 1774108800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 0,
+      "current_interval_usage_count": 0,
+      "model_name": "MiniMax-Hailuo-2.3-Fast-6s-768p",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    },
+    {
+      "start_time": 1774108800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 0,
+      "current_interval_usage_count": 0,
+      "model_name": "MiniMax-Hailuo-2.3-6s-768p",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    },
+    {
+      "start_time": 1774108800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 0,
+      "current_interval_usage_count": 0,
+      "model_name": "music-2.5",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    },
+    {
+      "start_time": 1774108800000,
+      "end_time": 1774195200000,
+      "remains_time": 1585636,
+      "current_interval_total_count": 0,
+      "current_interval_usage_count": 0,
+      "model_name": "image-01",
+      "current_weekly_total_count": 0,
+      "current_weekly_usage_count": 0,
+      "weekly_start_time": 1773590400000,
+      "weekly_end_time": 1774195200000,
+      "weekly_remains_time": 1585636
+    }
+  ],
+  "base_resp": {
+    "status_code": 0,
+    "status_msg": "success"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "cmach"}],
+        "Category": "Utilities",
+        "Description": "Monitor MinMax API token usage",
+        "EnabledByDefault": true,
+        "Icon": "utilities-system-monitor",
+        "Id": "org.kde.plasma.minmax-token-monitor",
+        "License": "MIT",
+        "Name": "MinMax Token Monitor",
+        "ServiceTypes": ["Plasma/Applet"],
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
