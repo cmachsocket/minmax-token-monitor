@@ -36,7 +36,7 @@ PlasmoidItem {
         QtControls.Button {
             anchors.verticalCenter: parent.verticalCenter
             flat: true
-            icon.source: "icon/refresh.svg"
+            icon.source: Qt.resolvedUrl("../icon/refresh.svg")
             font.pixelSize: 14
             onClicked: fetchData()
         }
