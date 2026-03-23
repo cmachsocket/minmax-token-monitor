@@ -64,22 +64,25 @@ PlasmoidItem {
                     text : "usage : " + (getTotal-getUsage) + "/" + getTotal
                 }
                 QtControls.ProgressBar{
-
+                    id : progress
                     QtLayouts.Layout.alignment: Qt.AlignCenter
+                    implicitHeight: 20
+                    padding: 0
                     from: 0
                     to: getTotal
                     value: (getTotal-getUsage)
                     background: Rectangle {
                         implicitHeight: 20
-                        color: "transparent"
+                        color: bgColor
                         radius: 3
                     }
 
                     contentItem: Item {
                         implicitHeight: 20
+                        clip: true
 
                         Rectangle {
-                            width: control.visualPosition * parent.width
+                            width: progress.visualPosition * parent.width
                             height: parent.height
                             color: barColor
                             radius: 3
@@ -171,6 +174,8 @@ PlasmoidItem {
         lastUpdated = now.toLocaleTimeString(Qt.locale(), "HH:mm");
         usageRatio = Math.floor(Math.random() * 60 + 20) + "%";
         isLoading = false;
+        getTotal = 1000;
+        getUsage = Math.floor(Math.random() * 800);
     }
 
 }
