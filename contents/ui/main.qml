@@ -81,7 +81,7 @@ PlasmoidItem {
                         Rectangle {
                             width: control.visualPosition * parent.width
                             height: parent.height
-                            color: "#2196f3"
+                            color: barColor
                             radius: 3
                         }
                     }
